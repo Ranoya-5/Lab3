@@ -10,6 +10,13 @@ def write_text_file_with_name(name):
     except Exception as e:
         print(f"Error: {e}")
 
+# Add NEW function
+def helloWorld():
+        print(‘Hello World’)
+
+
 if __name__ == '__main__':
     name = input("Enter your name: ")       # Prompt the user to enter their name
     write_text_file_with_name(name)            # Call the function to create the text file with the provided name
+
+    helloWorld()
